@@ -1,14 +1,25 @@
-# MEDIUM LIKE BLOGGING APP
+# Medium-like Blogging App
 
-A blogging app 
+A blogging platform inspired by Medium, allowing users to create, read, update, and delete blog posts. This app also includes authentication, input validation, and a well-structured backend, all integrated with modern technologies.
 
-Tech stack :-
+## Tech Stack
+- **Frontend**: React (with TypeScript)
+- **Backend**: Cloudflare Workers
+- **Validation**: Zod (for validation and type inference in the frontend)
+- **Language**: TypeScript
+- **ORM**: Prisma (with connection pooling)
+- **Database**: PostgreSQL
+- **Authentication**: JWT (JSON Web Tokens)
 
-React in the frontend
-Cloudflare workers in the backend
-zod as the validation library, type inference for the frontend types
-Typescript as the language
-Prisma as the ORM, with connection pooling
-Postgres as the database
-jwt for authentication
-link = medium-clone-flax-three.vercel.app/signup
+### Live Application
+[Visit the live app](https://medium-clone-flax-three.vercel.app/signup)
+
+---
+
+## Features
+- User authentication (signup, login) using JWT.
+- Create, read, update, and delete (CRUD) functionality for blog posts.
+- Secure backend with Cloudflare Workers.
+- Input validation using Zod for data consistency and type inference.
+- Connection pooling for efficient database interactions.
+ cd medium-like-blogging-app
