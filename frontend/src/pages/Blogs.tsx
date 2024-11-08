@@ -7,7 +7,7 @@ export const Blogs = () => {
 
     const { loading, blogs } = useBlogs();
 
-    if (loading || !blogs) {
+    if (loading ) {
         return <div>
             <Appbar />
             <div className="flex justify-center">
@@ -21,7 +21,7 @@ export const Blogs = () => {
         </div>
     }
 
-
+    
     return (
         <div >
             <Appbar />
