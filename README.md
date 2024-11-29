@@ -12,7 +12,7 @@ A blogging platform inspired by Medium, allowing users to create, read, update, 
 - **Authentication**: JWT (JSON Web Tokens)
 
 ### Live Application
-[Visit the live app](https://medium-clone-flax-three.vercel.app/signup)
+[Visit the live app](https://medium-write.vercel.app/signup)
 
 ---
 
